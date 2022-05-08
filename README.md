@@ -91,3 +91,6 @@ Download IU and MIMIC-CXR datasets, and place them in `data` folder.
     - Microsoft COCO Caption Evaluation Tools
     - Need clone from GitHub and modified the code to work with Python 3
     
+## Cite
+Xian Wu, Shuxin Yang, Zhaopeng Qiu, Shen Ge, Yangtian Yan, Xingwang Wu, S.Kevin Zhou, Li Xiao. DeltaNet: Conditional Medical Report Generation for COVID-19 Diagnosis. 2022
+    
