@@ -1,0 +1,27 @@
+dataset: mimicsim
+start_gen: 1
+
+root: /home/shuxinyang/data/mimic/finding/
+# ${root}/checkpoints', args.expe_name
+
+image_dir: /home/shuxinyang/data/mimic/finding/images/images224
+vocab_path: /home/shuxinyang/data/mimic/finding/vocab.pkl
+caption_json: /home/shuxinyang/data/mimic/finding/pair_list.json
+pair_list: /home/shuxinyang/data/mimic/finding/leave_out_similar_pair_list.csv
+
+cnn_epoch: 5
+learning_rate_cnn: 0.00001
+
+alpha: 0.8
+beta: 0.999
+learning_rate: 0.0005
+
+# pretrained:
+num_epochs: 50
+clip: 5
+
+lr_decay: 10
+learning_rate_decay_every: 10
+
+beam_size: 3
+max_length: 80

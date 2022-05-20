@@ -1,0 +1,26 @@
+dataset: iu
+start_gen: 1
+
+root: data/iu/r2gen_split/
+image_dir: data/iu/r2gen_split/images_normalized
+vocab_path: data/iu/r2gen_split/vocab.pkl
+caption_json: data/iu/r2gen_split/idx2caption.json
+pair_list: data/iu/r2gen_split/pair_list.csv
+
+cnn_epoch: 8
+learning_rate_cnn: 0.0000
+alpha: 0.8
+beta: 0.999
+learning_rate: 0.0005
+lr_decay: 10
+learning_rate_decay_every: 10
+
+# pretrained:
+num_epochs: 100
+batch_size: 32
+clip: 5
+
+crop_size: 224
+
+beam_size: 3
+max_length: 80

@@ -1,0 +1,23 @@
+_BASE_: mimic_base.yml
+
+gpu: 4
+start_gen: 1
+
+# ${root}/checkpoints', args.expe_name
+expe_name: con_1_similar_sup
+N: 1
+
+cnn_epoch: 8
+learning_rate_cnn: 0.00001
+
+alpha: 0.8
+beta: 0.999
+learning_rate: 0.0005
+
+# pretrained:
+num_epochs: 100
+batch_size: 64
+clip: 5
+
+lr_decay: 10
+learning_rate_decay_every: 10

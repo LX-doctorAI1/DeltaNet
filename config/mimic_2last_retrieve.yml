@@ -1,0 +1,5 @@
+_BASE_: mimic_base.yml
+
+dataset: mimic2lastsim
+
+expe_name: Con1_2last_retrieve

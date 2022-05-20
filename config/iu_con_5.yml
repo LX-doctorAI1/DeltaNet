@@ -1,0 +1,23 @@
+_BASE_: iu_base.yml
+
+start_gen: 1
+gpu: 0
+
+# ${root}/checkpoints', args.expe_name
+expe_name: con_5
+N: 5
+
+cnn_epoch: 5
+learning_rate_cnn: 0.0000
+alpha: 0.8
+beta: 0.999
+learning_rate: 0.0005
+lr_decay: 10
+learning_rate_decay_every: 10
+
+# pretrained:
+num_epochs: 50
+batch_size: 16
+clip: 5
+
+
