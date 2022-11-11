@@ -94,5 +94,10 @@ Download IU and MIMIC-CXR datasets, and place them in `data` folder.
 ## Cite
 Xian Wu, Shuxin Yang, Zhaopeng Qiu, Shen Ge, Yangtian Yan, Xingwang Wu, S.Kevin Zhou, Li Xiao. DeltaNet: Conditional Medical Report Generation for COVID-19 Diagnosis. Coling, 2022
 
+If you have any problem with the code, please contact Xian Wu(kevinxwu@tencent.com), Shuxin Yang(aspenstarss@gmail.com) or Li Xiao(andrew.lxiao@gmail.com).
+
+## Thanks
+Joseph Paul Cohen, Joseph D. Viviano, Paul Bertin, Paul Morrison, Parsa Torabian, Matteo Guarrera, Matthew P Lungren, Akshay Chaudhari, Rupert Brooks, Mohammad Hashir, Hadrien Bertrand. TorchXRayVision: A library of chest X-ray datasets and models. Medical Imaging with Deep Learning. https://github.com/mlmed/torchxrayvision, 2020
+
 
     
